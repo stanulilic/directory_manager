@@ -1,5 +1,5 @@
 {
-  "name": "dir_experiment",
+  "name": "@stanulilic/directory_manager",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -10,9 +10,14 @@
     "build": "npx tsc",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
+  "author": "Stanley Ulili",
   "license": "ISC",
+  "repository": "https://github.com/stanulilic/directory_manager",
+  "homepage": "https://github.com/stanulilic/directory_manager#readme",
   "dependencies": {
     "commander": "^10.0.1",
     "figlet": "^1.6.0"
